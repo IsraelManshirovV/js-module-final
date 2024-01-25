@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/hand-using-laptop-computer-with-virtual-screen-document-online-approve-paperless-quality-assurance-erp-management-concept.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 340px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+}
+
+.time {
+    padding: 1.5rem;
+    font-size: 2.2rem;
+}
+
+h1,
+p {
+    color: #f8f8f8;
+}
+
+button {
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    border-radius: 10px;
+    border: 1px solid #f8f8f8;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 0.50s;
+    color: #f8f8f8;
+}

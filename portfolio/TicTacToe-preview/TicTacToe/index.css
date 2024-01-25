@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    max-width: 100%;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(./img/pexels-roberto-shumski-1903702.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    text-align: center;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    ;
+}
+
+.TColor {
+    color: rgb(202, 167, 136);
+    margin-left: 2px;
+}
+
+.gameTitle {
+    padding-top: 20px;
+}
+
+.gContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 150px;
+    margin: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cell {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #333333;
+}
+
+button:hover {
+    transition: 0.50s;
+    background-color: rgb(202, 167, 136);
+    color: #333333;
+}
