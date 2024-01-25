@@ -1,0 +1,28 @@
+.header {
+    background-image: url(./pic/Path\ 15.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: $contentw;
+    height: 650px;
+}
+
+.header h1 {
+    color: $color;
+    display: flex;
+    justify-content: center;
+    font-family: normal normal bold 86px/113px Assistant;
+    font-size: 6rem;
+}
+
+.header p {
+    color: #f9f9f9;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+h1,
+p {
+    position: relative;
+    top: 250px;
+}
