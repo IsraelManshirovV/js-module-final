@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 590px;
+    background-image: url(./pic/Path\ 15.png);
+    opacity: 1;
+}
+
+form {
+    width: 568.61px;
+    height: 642.8px;
+    display: block;
+    background: #1A1A1AD4 0% 0% no-repeat padding-box;
+    position: absolute;
+    top: 157px;
+    left: 1056px;
+    width: 569px;
+    height: 643px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 75.7px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #f9f9f9;
+    text-align: center;
+    justify-content: center;
+    margin-top: 21px;
+    padding: 20px;
+}
+
+#fullname {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 80px;
+    margin-bottom: 5px;
+}
+
+#FullName {
+    width: 413px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    border: 1px solid #D31C75;
+}
+
+#emailText {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 55px;
+    margin-left: 80px;
+    margin-bottom: 5px;
+}
+
+#email {
+    width: 413px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    border: 1px solid #D31C75;
+}
+
+button {
+    width: 166px;
+    height: 50px;
+    font-size: 22px;
+    color: #fff;
+    background-color: #d31c75;
+    margin-top: 30px;
+    margin-left: 325px;
+    border: none;
+}
+
+button:hover {
+    color: #D31C75;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .6s;
+}
